@@ -28,4 +28,4 @@ Desktop Screenshot:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://fatimamushtaq29.github.io/huddle-landing-page-with-single-introductory-section/
