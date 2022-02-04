@@ -1,0 +1,119 @@
+body {
+    color: white;
+    background: no-repeat top/contain url("images/bg-mobile.svg"), hsl(257, 40%, 49%);
+    
+}
+.outer-container {
+    padding: 30px 35px;
+}
+.logo {
+    height: 35px;
+    margin-bottom: 60px;
+}
+.illustration {
+    margin-bottom: 60px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
+}
+.introduction {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    
+}
+button {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 0.7rem 4.75rem;
+    margin: 0 auto;
+    color:hsl(257, 40%, 49%);
+    border-style: none;
+    box-shadow: 0 0.15rem 0.5rem 0.05rem hsl(257, 40%, 30%);
+    transition: all 0.25s;
+}
+button:hover, button:active {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+img.social-logos {
+    width: 15px;
+    height: 15px;
+    padding: 0.5rem;
+    border: solid white 1px;
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+div.social-logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;  
+}
+img.social-logos:hover, img.social-logos:active {
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+@media (min-width: 900px) {
+    body {
+        height: 100vh;
+        background: no-repeat left/contain url("images/bg-desktop.svg"), hsl(257, 40%, 49%);
+    }
+    .outer-container {
+        padding: 40px 60px;
+    }
+    .logo {
+        height: 50px;
+        margin-bottom: 5.15rem;
+    }
+    .container {
+        flex-direction: row;
+    }
+    .illustration {
+        width: 60%;
+        max-height: 460px;
+        margin: 0;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        padding: 0 0 0 5rem;
+    }
+    h1 {
+        margin-top: 20px;
+        text-align: left;
+        font-size: 3.06rem;
+        line-height: 4rem;
+    }
+    .introduction {
+        text-align: left;
+        font-size: 1.45rem;
+        line-height: 2rem;
+    }
+    button {
+        margin-left: 0;
+        padding: 0.7rem 4rem;
+    }
+    div.social-logos {
+        justify-content: flex-end;
+        margin: 1rem 0 0 0;
+    }
+    img.social-logos {
+        height: 20px;
+        width: 20px;
+    }
+}
